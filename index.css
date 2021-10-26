@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+nav {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    line-height: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    border: 1px solid black;
+    transition: all ease-out 1s;
+}
+
+nav.a :hover {
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5em;
+}
+
+footer {
+    background-color: lawngreen;
+}
+
+footer.a {
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social li {
+    margin: 0.5em;
+}
